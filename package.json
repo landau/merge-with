@@ -4,7 +4,8 @@
   "description": "Implementation of merge-with in JS. Merge an obj with n number of obj running a function on matching keys.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "pretest": "jshint --reporter node_modules/jshint-stylish/stylish.js index.js test.js",
+    "test": "mocha -R nyan test.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   "homepage": "https://github.com/landau/merge-with",
   "devDependencies": {
     "mocha": "^1.18.2",
-    "is-predicate": "^0.4.0"
+    "is-predicate": "^0.4.0",
+    "jshint-stylish": "^0.1.5"
   }
 }
