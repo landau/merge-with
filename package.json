@@ -1,6 +1,6 @@
 {
   "name": "merge-with",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Implementation of merge-with in JS. Merge an obj with n number of obj running a function on matching keys.",
   "main": "index.js",
   "scripts": {
