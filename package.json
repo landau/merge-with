@@ -1,0 +1,32 @@
+{
+  "name": "merge-with",
+  "version": "0.0.0",
+  "description": "Implementation of merge-with in JS. Merge an obj with n number of obj running a function on matching keys.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/landau/merge-with.git"
+  },
+  "keywords": [
+    "functional",
+    "merge",
+    "object",
+    "clone",
+    "browser",
+    "extend",
+    "combine"
+  ],
+  "author": "Trevor Landau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/landau/merge-with/issues"
+  },
+  "homepage": "https://github.com/landau/merge-with",
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "is-predicate": "^0.4.0"
+  }
+}
