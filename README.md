@@ -1,9 +1,11 @@
+[![Build Status](https://travis-ci.org/landau/merge-with.svg)](https://travis-ci.org/landau/merge-with)
+
 A port of clojure's `merge-with`.
 
 Returns a map that consists of the rest of the maps transformed into
 the first.  If a key occurs in more than one map, the mapping(s)
 from the latter (left-to-right) will be combined with the mapping in
-the result by calling (fn val-in-result val-in-latter).
+the result by calling `fn(val-in-result, val-in-latter)`.
 
 ## Install
 

@@ -1,7 +1,7 @@
 {
   "name": "merge-with",
-  "version": "1.0.0",
-  "description": "Implementation of merge-with in JS. Merge an obj with n number of obj running a function on matching keys.",
+  "version": "1.0.1",
+  "description": "Returns a map that consists of the rest of the maps transformed into the first.  If a key occurs in more than one map, the mapping(s) from the latter (left-to-right) will be combined with the mapping in the result by calling `fn(val-in-result, val-in-latter)`.",
   "main": "index.js",
   "scripts": {
     "pretest": "jshint --reporter node_modules/jshint-stylish/stylish.js index.js test.js",
